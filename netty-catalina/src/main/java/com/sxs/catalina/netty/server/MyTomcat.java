@@ -12,7 +12,9 @@ import io.netty.channel.socket.SocketChannel;
 import io.netty.channel.socket.nio.NioServerSocketChannel;
 import io.netty.handler.codec.http.HttpRequestDecoder;
 import io.netty.handler.codec.http.HttpResponseEncoder;
-  
+
+
+// 访问路径： http://localhost:8080/first/query?name=beautiful
 public class MyTomcat {
 	
 	private static Logger LOG = Logger.getLogger(MyTomcat.class);
